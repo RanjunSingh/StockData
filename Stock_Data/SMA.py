@@ -37,9 +37,7 @@ class SMA:
 
         print("Computing Deviations..")
         self.computeDeviations()
-
         self.accumulateOutliers()
-
         self.printOutliersToTxt()
 
         return
